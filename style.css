@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1080px;
+    min-width: 1080px;
+    align-content: center;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-element {
+    margin-left: 20px;
+    align-content: center;
+    font-family: Jura, serif;
+
+}
+.nav-name {
+ 
+    font-size: 2em;
+    font-family: Lobster, serif;
+    align-content: center;
+    color: #ac696c;
+    
+}
+
+.nav-element-wrapper {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2em;
+    display: flex;
+    align-content: center;
+}
+a:link{
+    text-decoration: none;
+    color: #3e5561;
+}
+a:visited{
+    text-decoration: none;
+    color: #3e5561;
+
+}
+
+a:hover{
+    color: #f5f7f6;
+    background-color: #98a7b4;
+    transition: color 1s, background-color .5s;
+    border-radius: 30%;
+}
