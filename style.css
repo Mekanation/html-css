@@ -183,3 +183,65 @@ li {
     color: #3e5561;
     font-family: Lobster, serif;
 }
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: Jura, serif;
+    width: 600px;
+    margin: 10px;
+}
+.default-button {
+    color: #f5f7f6;
+    margin: 10px;
+    background-color: #ac696c;
+    font-family: Jura, serif;
+    font-size: 3em;
+
+}
+input {
+    border-top: none;
+    border-bottom: 2px solid #3e5561;
+    border-right: none;
+    border-left: none;
+    margin-top: 5px;
+    font-size: .5em;
+    font-family: Jura, serif;
+}
+textarea {
+    border-top: none;
+    border-bottom: 2px solid #3e5561;
+    border-right: none;
+    border-left: none;
+    margin-top: 5px;
+    font-size: .5em;
+    font-family: Jura, serif;
+}
+.form-element {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 3em;
+
+}
+
+.contact-header {
+    font-size: 6em;
+    font-family: Jura, serif;
+    color: #3e5561;
+}
